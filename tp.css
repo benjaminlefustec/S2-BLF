@@ -1,0 +1,13 @@
+.board{display : grid;
+    grid-template-columns : repeat(3, 100px);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin:auto
+}
+
+.cell{border: 1px solid chocolate; width:100px; background-color: white;}
+
+.red{background-color: red;}
+.green{background-color: green;}
+
+
